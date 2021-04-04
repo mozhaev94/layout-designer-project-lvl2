@@ -76,8 +76,8 @@ header {
   @media (max-width: 550px) {
     .container {
       width: 374px;
-      margin-right: 20px;
-      margin-left: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
     }
 
     .header {
@@ -161,6 +161,7 @@ header {
 
   @media (max-width: 550px) {
     #page-description {
+      margin-top: 250px;
       .form-input-name-email {
         width: 100%;
       }
