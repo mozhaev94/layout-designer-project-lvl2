@@ -21,6 +21,28 @@ p {
   margin: 0;
 }
 
+.txt-sz-1 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.txt-sz-3 {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.txt-sz-7 {
+  font-size: 64px;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
 // mixin
 @mixin heading-bold {
   font-weight: bold;

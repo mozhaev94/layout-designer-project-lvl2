@@ -7,6 +7,7 @@ header {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  box-sizing: border-box;
 }
 
 .container {
@@ -74,13 +75,13 @@ header {
 
   @media (max-width: 550px) {
     .container {
-      width: 414px;
+      width: 374px;
       margin-right: 20px;
       margin-left: 20px;
     }
 
     .content {
-      width: 414px;
+      width: 374px;
     }
     
     .header {
@@ -170,3 +171,107 @@ header {
       }
       }
     }
+
+.bg-black {
+      background-color: $bg-black;
+    }
+
+#page-pricing {
+  padding-top: 100px;
+    .heading-pricing {
+      color: $color-white;
+      text-align: center;
+       }
+    .plans {
+      display: flex;
+      margin-top: 46px;
+      justify-content: space-between;
+    }
+    .footer-plans {
+      margin-top: 50px;
+      color: $color-white;
+      text-align: center;
+    }
+    }
+
+.cards {
+  max-width: 367px;
+  color: $color-white;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1rem;
+  .__header-plans {
+    padding-top: 21px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+  .price {
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+  .value {
+    margin-right: 16px;
+  }
+}
+  .btn {  
+  margin-top: 24px;
+  width: 319px;
+  height: 66px;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid $color-white;
+  color: $color-white;
+  text-transform: uppercase;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+  }
+
+  .discription-plan {
+    width: 318px;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 66px;
+    margin: 0 auto;
+    font-size: 12.8px;
+    line-height: 19.2px;
+  }
+}
+
+.bg-subscribe_1 {
+  background-image: url(../images/subscribe_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subscribe_2 {
+  background-image: url(../images/subscribe_2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subscribe_3 {
+  background-image: url(../images/subscribe_3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 550px) {
+  #page-pricing {
+    .plans {
+      flex-direction: column;
+    }
+    .cards {
+      margin-bottom: 26px;
+    }
+    .cards:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
