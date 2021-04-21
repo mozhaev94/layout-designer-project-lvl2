@@ -299,6 +299,13 @@ header {
   padding-bottom: 0;
 }
 
+.news-item:nth-child(odd) {
+  flex-direction: row-reverse;
+  .news-footer {
+    margin-top: 16px;
+  }
+}
+
 .news-container {
   width: 575px;
 }
@@ -349,14 +356,26 @@ header {
 
 @media (max-width: 550px) {
   .news-item {
-    flex-direction: column-reverse;
-    .news-image-left {
+    flex-direction: column;
+    .news-container {
+      width: 374px;
+      .header-news-body {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .text-news {
+        margin-top: 16px;
+      }
+    }
+    .news-image {
       width: 374px;
       height: 186px;
     }
-    .news-image-right {
-      width: 374px;
-      height: 186px;
-    }
+  }
+  .news-item:nth-child(odd) {
+    flex-direction: column;
+  }
+  .header-news-body {
+    margin-top: 50px;
   }
 }
