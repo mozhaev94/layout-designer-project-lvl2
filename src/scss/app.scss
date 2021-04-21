@@ -292,16 +292,15 @@ header {
 .news-item {
   display: flex;
   padding-bottom: 48px;
-  .news-image-left {
-    margin-right: 50px;
-  }
-  .news-image-right {
-    margin-left: 50px;
-  }
+  justify-content: space-between;
 }
 
 .news-item:last-child {
   padding-bottom: 0;
+}
+
+.news-container {
+  width: 575px;
 }
 
 .news-body {
