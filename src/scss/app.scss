@@ -174,6 +174,7 @@ header {
 
 .bg-black {
       background-color: $bg-black;
+      overflow: auto
     }
 
 #page-pricing {
@@ -231,7 +232,7 @@ header {
   }
 
   .btn:active {
-    border: 2px solid $color-white;
+    border: 3px solid $color-white;
   }
 
   .discription-plan {
@@ -377,5 +378,53 @@ header {
   }
   .header-news-body {
     margin-top: 50px;
+  }
+}
+
+#page-app {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  .header-page-app {
+    text-align: center;
+    color: $color-white;
+  }
+}
+
+.container-page-app {
+  display: flex;
+  .description-app {
+    margin-top: 64px;
+    margin-right: 144px;
+    width: 600px;
+    .description-app-txt {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .image-phone {
+    margin-top: 48px;
+  }
+  .btn {
+    margin-top: 16px;
+    border-radius: 32px;
+    font-size: 12.8px;
+    padding: 16px 40px;
+    background-color: $color-red;
+    color: $color-white;
+    border: none;
+    cursor: pointer;
+  }
+  .btn:active {
+    border: 2px solid $color-darkgrey
+  }
+}
+
+@media (max-width: 550px) {
+  .container-page-app {
+    flex-direction: column-reverse;
+    .description-app {
+      width: 374px;
+      margin-top: 16px;
+    }
   }
 }
