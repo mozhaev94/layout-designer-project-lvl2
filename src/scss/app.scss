@@ -1,5 +1,6 @@
 @import "general";
 @import "variables";
+@import "footer";
 
 header {
   background-image: url("/src/images/banner.png");
@@ -174,7 +175,8 @@ header {
 
 .bg-black {
       background-color: $bg-black;
-      overflow: auto
+      overflow: auto;
+      width: 100vw;
     }
 
 #page-pricing {
@@ -427,4 +429,8 @@ header {
       margin-top: 16px;
     }
   }
+}
+
+.wrapper {
+  width: 100vw;
 }

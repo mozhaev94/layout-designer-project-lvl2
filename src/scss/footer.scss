@@ -1,0 +1,45 @@
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  overflow: auto;
+  width: 100vw;
+}
+
+.footer {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.header-footer {
+  font-size: 18px;
+  line-height: 27px;
+  color: $color-white;
+  font-weight: bold;
+}
+
+.columns-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.list-footer {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.footer-img {
+  img {
+    margin-right: 24px;
+  }
+}
+
+.footer-contact-link {
+  text-decoration: none;
+  color: $color-gray;
+}
+
+.border-footer {
+  border: 1px solid $color-gray;
+}
