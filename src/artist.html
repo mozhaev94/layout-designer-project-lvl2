@@ -5,9 +5,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Box mozhaev94</title>
+  <link rel="stylesheet" href="scss/app.scss">
   <script src="../index.js"></script>
 </head>
 <body>
-  
+  <header class="bg-morten-harket">
+    <div class="container">
+      <div class="header content">
+        <div class="logotype">
+          <div class="logotype-img">
+            <img src="/src/images/logo.svg" alt="logo">
+          </div>
+          <span class="logo-name">Music box</span>
+        </div>
+        <nav class="navigation">
+          <a href="#">Главная</a>
+          <a href="#">Каталог</a>
+          <a href="#">Исполнители</a>
+          <a href="#">Контакты</a>
+        </nav>
+        <div class="search-form">
+          <input type="text" class="search-form-input" placeholder="Поиск..." name="search">
+        </div>
+      </div>
+      <section id="page-description">
+        <h1 class="name-author">Morten Harket</h1>
+        <span class="subscriber">24 875 поклонников</span>
+        <div class="buttons">
+          <button class="btn bg-purple">
+            <img src="/src/images/play-button.svg" alt="play-logo" class="image-button">
+            <span>микс</span>
+          </button>
+          <button class="btn bg-red">
+            <img src="/src/images/heart.svg" alt="heart-logo" class="image-button">
+            <span>в избранное</span>
+          </button>
+        </div>
+      </section>
+    </div>
+  </header>
 </body>
 </html>
