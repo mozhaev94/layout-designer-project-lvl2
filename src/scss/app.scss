@@ -400,3 +400,46 @@
     }
   }
 }
+
+#page-popular-track {
+  padding-top: 100px;
+}
+.popular-tracks-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 240px;
+}
+.popular-track {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 550px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+.album-icon {
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+}
+
+.track-name {
+  color: $color-white;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-transform: uppercase;
+}
+
+.track-author {
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+
+.time-track {
+  position: absolute;
+  left: 526px;
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
