@@ -454,3 +454,19 @@
   font-size: 12.8px;
   line-height: 19.2px;
 }
+
+@media (max-width: 550px) {
+  .popular-tracks-list {
+    height: min-content;
+  }
+  .popular-track:nth-child(1) {
+    margin-top: 25px;
+  }
+  
+  .popular-track:nth-child(4) {
+    margin-top: 25px;
+  }
+  .time-track {
+    left: 349px;
+  }
+}
