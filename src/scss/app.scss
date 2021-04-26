@@ -403,12 +403,16 @@
 
 #page-popular-track {
   padding-top: 100px;
+  h2 {
+    color: $color-white;
+  }
 }
 .popular-tracks-list {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 240px;
+  height: 215px;
 }
 .popular-track {
   display: flex;
@@ -417,6 +421,13 @@
   width: 550px;
   margin-right: 50px;
   margin-top: 25px;
+}
+.popular-track:nth-child(1) {
+  margin-top: 0px;
+}
+
+.popular-track:nth-child(4) {
+  margin-top: 0px;
 }
 
 .album-icon {
