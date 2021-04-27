@@ -482,7 +482,7 @@
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(4,250px);
-  grid-template-rows: repeat(2,320px);
+  grid-template-rows: repeat(1,320px);
   grid-column-gap: 50px;
   grid-row-gap: 25px;
 }
@@ -496,7 +496,7 @@
   color: $color-white;
   font-size: 18px;
   line-height: 27px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-top: 18px;
 }
 
@@ -517,4 +517,38 @@
     width: 137px;
     height: 137px;
   }
+}
+
+#page-similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  h2 {
+    color: $color-white;
+  }
+}
+
+.section-similars {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
+}
+
+.similar-item {
+text-align: center;
+}
+
+.musical-group {
+  margin-top: 17px;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: $color-white;
+}
+
+.amount-subscribers {
+  font-size: 16px;
+  line-height: 24px;
 }
