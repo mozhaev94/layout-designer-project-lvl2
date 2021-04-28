@@ -4,7 +4,7 @@
 @import "footer";
 
 .bg-banner {
-  background-image: url("/src/images/banner.png");
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -69,7 +69,6 @@
 
   @media (max-width: 550px) {
     #page-description {
-      margin-top: 250px;
       .form-input-name-email {
         width: 100%;
       }
@@ -206,6 +205,7 @@
   display: flex;
   padding-bottom: 48px;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 
 .news-item:last-child {
@@ -344,7 +344,7 @@
 // !!!!! artist.html !!!!!!//
 
 .bg-morten-harket {
-  background-image: url("/src/images/MortenHarket.png");
+  background-image: url("../images/MortenHarket.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -376,6 +376,13 @@
     align-items: center;
     flex-direction: row;
     border-radius: 5px;
+    border: none;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  .btn:active {
+    border: 1px solid $color-white;
   }
   .image-button {
     filter: invert(1);

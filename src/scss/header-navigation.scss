@@ -57,6 +57,10 @@
         color: $color-gray;
         position: relative;
         right: -500px;
+        text-transform: uppercase;
+      }
+      .search-form-input::placeholder {
+        color: #757575;
       }
     }
   }

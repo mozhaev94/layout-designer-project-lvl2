@@ -2,7 +2,7 @@ lint:
 	npx stylelint "**/*.css"
 
 deploy:
-	npx surge
+	npx surge ./src/
 
 run:
 	npm run dev
